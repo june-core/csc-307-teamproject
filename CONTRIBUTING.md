@@ -13,7 +13,7 @@
   ```
 - Frontend:
   ```bash
-   npm run -w react-frontend dev
+   npm start
   ```
 
 ## Formatting

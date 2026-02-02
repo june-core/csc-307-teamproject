@@ -1,24 +1,29 @@
 {
   "name": "csc-307-teamproject",
-  "private": true,
   "version": "1.0.0",
   "description": "",
-  "workspaces": [
-    "packages/*"
-  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
+  "private": true,
   "scripts": {
+    "start": "npm --prefix packages/react-frontend run dev",
+    "dev": "npm --prefix packages/react-frontend run dev",
+    "build": "npm --prefix packages/react-frontend run build",
+    "preview": "npm --prefix packages/react-frontend run preview",
+    "postinstall": "npm --prefix packages/react-frontend install",
     "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json,yml,yaml}\" --config ./.prettierrc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/june-core/csc-307-teamproject.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/june-core/csc-307-teamproject/issues"
   },
