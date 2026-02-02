@@ -1,0 +1,25 @@
+{
+  "name": "express-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "backend.js",
+  "scripts": {
+    "dev": "node backend.js",
+    "start": "node backend.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/compat": "^2.0.2",
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2"
+  }
+}
